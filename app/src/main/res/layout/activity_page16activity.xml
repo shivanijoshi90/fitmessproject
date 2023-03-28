@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1C1C"
+    android:orientation="horizontal"
+    tools:context=".page16activity">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/arrow" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-70dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="Account Setting"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+
+
+    <View
+        android:layout_width="490dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="-510dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/grey2" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-450dp"
+        android:layout_marginTop="230dp"
+        android:text="Email"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-470dp"
+        android:layout_marginTop="270dp"
+        android:text="studioopide@gmail.com"
+        android:textColor="#8F8585"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="490dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="-510dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/grey2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-450dp"
+        android:layout_marginTop="420dp"
+        android:text="Phone"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-470dp"
+        android:layout_marginTop="460dp"
+        android:text="please add a valid phone number"
+        android:textColor="#8F8585"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="490dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="-510dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/grey2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-450dp"
+        android:layout_marginTop="610dp"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-470dp"
+        android:layout_marginTop="640dp"
+        android:text="change password"
+        android:textColor="#8F8585"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="490dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="-510dp"
+        android:layout_marginTop="808dp"
+        android:background="@drawable/grey2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-450dp"
+        android:layout_marginTop="790dp"
+        android:text="Notification"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-470dp"
+        android:layout_marginTop="830dp"
+        android:text="change notification setting"
+        android:textColor="#8F8585"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="490dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="-510dp"
+        android:layout_marginTop="999dp"
+        android:background="@drawable/grey2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-450dp"
+        android:layout_marginTop="1000dp"
+        android:text="Deactivate Account"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-470dp"
+        android:layout_marginTop="1040dp"
+        android:text="deactivate your account anytime"
+        android:textColor="#8F8585"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="490dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="-510dp"
+        android:layout_marginTop="1290dp"
+        android:background="@drawable/wwwww" />
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-470dp"
+        android:layout_marginTop="1330dp"
+        android:background="@drawable/home" />
+
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="1340dp"
+        android:background="@drawable/bell" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="1310dp"
+        android:gravity="center"
+        android:text="SETTING"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-160dp"
+        android:layout_marginTop="1340dp"
+        android:background="@drawable/gear2" />
+
+
+</LinearLayout>
+

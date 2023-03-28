@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page5activity">
+
+    <View
+        android:layout_width="450dp"
+        android:layout_height="805dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-29dp"
+        android:background="@drawable/img" />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/arrow"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="Verify your phone number"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="We have sent you an SMS with a code to  number +60 905070017"
+        android:textColor="#8F8585"
+        android:textStyle="bold"
+        android:textSize="19dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <View
+                android:id="@+id/img6"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="350dp"
+                android:background="@drawable/img6"
+                />
+
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="-340dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="175dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="368dp"
+                android:text="+60"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="top"
+                android:textColor="@color/white"
+                />
+            <ImageView
+                android:id="@+id/sort_down"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="368dp"
+                android:src="@drawable/img8"
+                />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="370dp"
+                android:gravity="center_horizontal"
+                android:text="905070017"
+                android:textColor="@color/white"
+                android:textSize="23dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="370dp"
+                android:src="@drawable/close"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtnext"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/img3"
+            android:text="Next"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            />
+
+</FrameLayout>
